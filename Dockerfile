@@ -5,7 +5,7 @@ FROM python:3.7-slim
 #WORKDIR WILL CREATE A FOLDER CALLED APP AND GET INTO IT AND MAKE IT OUR WORK DIRECTORY
 WORKDIR /app
 
-# Add the current directory contents into the container at /app.
+# Add the current directory contents into the container at /app
 ADD . /app
 
 #both pws and ls can be removed from the dockerfile
