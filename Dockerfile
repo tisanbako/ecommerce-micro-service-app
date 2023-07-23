@@ -10,7 +10,7 @@ ADD . /app
 
 #both pws and ls can be removed from the dockerfile
 
-# Check the present work directory in image
+# Check the present work directory in image.
 RUN pwd
 
 # List out the files and folders in the current directory
